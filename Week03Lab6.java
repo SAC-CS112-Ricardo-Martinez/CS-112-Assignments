@@ -21,11 +21,20 @@ public class Week03Lab6 {
         int number1;
         int number2;
         int sum;
+        int difference;
+        int product;
+        int quotient;
         number1 = input.nextInt();
         number2 = input.nextInt();
         System.out.printf("You entered %d and %d.\n", number1, number2);
         sum = number1+number2;
         System.out.printf("Their sum is %d.", sum);
+        difference = number1-number2;
+        System.out.printf("Their difference is %d.", difference);
+        product = number1*number2;
+        System.out.printf("Their product is %d.", product);
+        quotient = number1/number2;
+        System.out.printf("Their qoutient is %d.", quotient);
     }
     
 }
