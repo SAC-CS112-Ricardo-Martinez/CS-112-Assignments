@@ -24,9 +24,9 @@ public class Week05HWCalc
     number2 = scan.nextFloat();
     if (operator.equals ("+"))
         answer = number1 + number2;
-    else if (operator.equals ("-"))
+    if (operator.equals ("-"))
         answer = number1 - number2;
-    else if (operator.equals ("x"))
+    if (operator.equals ("x"))
         answer = number1 * number2;
     if (operator.equals ("/"))
         answer = number1 / number2;
