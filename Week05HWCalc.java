@@ -1,5 +1,5 @@
 /*
-Ricardo Martinez Week 4 Homework
+Ricardo Martinez Week 5 Homework Calculator
 */
 package week05hwcalc;
 import java.util.Scanner; 
@@ -30,8 +30,7 @@ public class Week05HWCalc
         answer = number1 * number2;
     if (operator.equals ("/"))
         answer = number1 / number2;
-    else System.out.printf("INVALID INPUT%n"
-            + "IGNORE ANSWER%n");
+    else System.out.printf("THE INPUT IS INVALID%nIGNORE THE ANSWER%n");
     System.out.printf("Answer is %f%n", answer);
     }
     }
