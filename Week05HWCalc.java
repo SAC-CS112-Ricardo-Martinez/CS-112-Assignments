@@ -34,3 +34,5 @@ public class Week05HWCalc
     System.out.printf("Answer is %f%n", answer);
     }
     }
+    
+// Good...as improvement, please try more informative output...
