@@ -82,12 +82,7 @@ public class Week07HW {
                 System.out.println(p2 + " is the winner!");
             } else if ((board[0][0] != '\u0000' && board[0][1] != '\u0000' && board[0][2] != '\u0000')
                     && (board[1][0] != '\u0000' && board[1][1] != '\u0000' && board[1][2] != '\u0000')
-                    && (board[2][0] != '\u0000' && board[2][1] != '\u0000' && board[2][2] != '\u0000')
-                    && (board[0][0] != '\u0000' && board[1][0] != '\u0000' && board[2][0] != '\u0000')
-                    && (board[0][1] != '\u0000' && board[1][1] != '\u0000' && board[2][1] != '\u0000')
-                    && (board[0][2] != '\u0000' && board[1][2] != '\u0000' && board[2][2] != '\u0000')
-                    && (board[0][0] != '\u0000' && board[1][1] != '\u0000' && board[2][2] != '\u0000')
-                    && (board[2][0] != '\u0000' && board[1][1] != '\u0000' && board[0][2] != '\u0000')) {
+                    && (board[2][0] != '\u0000' && board[2][1] != '\u0000' && board[2][2] != '\u0000')) {
                 i = "Done";
                 System.out.println("It's a tie!");
             }
