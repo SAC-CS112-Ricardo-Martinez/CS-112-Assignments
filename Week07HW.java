@@ -89,3 +89,6 @@ public class Week07HW {
         }
     }
 }
+
+
+// Please conside using a boolean variable to control the while loop.  This boolean is set to false before the loop and set to true when win/tie
